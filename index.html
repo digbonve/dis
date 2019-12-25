@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>蹦迪灯光</title>
+</head>
+<body>
+
+</body>
+    <script>
+        var times = document.querySelector('body');
+        setInterval(function () {
+            var r = Math.floor(Math.random() * 256);
+            var g = Math.floor(Math.random() * 256);
+            var b = Math.floor(Math.random() * 256);
+            times.style.backgroundColor = 'rgb('+ r +',' + b + ','+ b + ')';
+        },100);
+
+        var object = {
+            name:'小妍妍',
+            age:19
+        }
+        console.log(typeof  object) 
+    </script>
+</html>
